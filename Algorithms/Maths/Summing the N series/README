@@ -1,0 +1,23 @@
+You are given a series, whose nth term is defined as
+
+Tn = n^2 - (n-1)^2
+
+You have to find the Sum of the series Sn = T1 + T2 + T3 + .... + Tn
+
+Find Sn % (10^9 + 7)
+
+Input Format
+
+First line contains T, denoting the number of testcases. 
+Each Test case contains 1 line 
+n
+
+Output Format
+
+Print the required sum % (10^9 + 7)
+
+Constraints
+
+1 <= T <= 10 
+1 <= n <= 10^16
+
