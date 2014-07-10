@@ -1,0 +1,15 @@
+Print Sub-Arrays 
+In this challenge, print your array every time your partitioning method finishes, i.e. print every sorted sub-array The first element in a sub-array should be used as a pivot. Partition the left side before partitioning the right side. The pivot should not be added to either side. Instead, put it back in the middle when combining the sub-arrays together.
+
+Input Format 
+There will be two lines of input:
+
+n - the size of the array
+ar - the n numbers of the array
+Output Format 
+Print every partitioned sub-array on a new line.
+
+Constraints 
+1<=n<=1000 
+-1000<=x<= 1000 , x ∈ ar 
+There are no duplicate numbers.

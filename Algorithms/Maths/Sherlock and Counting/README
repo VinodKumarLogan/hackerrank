@@ -1,0 +1,13 @@
+Watson gives Sherlock two integers N and K and asks him to count the number of positive integers i such that
+
+i*(N-i) ≤ N*K and i<N.
+
+Input Format 
+First line contains, T, the number of testcases. Each testcase consists of N and K in one line.
+
+Output Format 
+For each testcase, print in one line the required answer.
+
+Constraints 
+1 ≤ T ≤ 10^5 
+1 ≤ N,K ≤ 10^9

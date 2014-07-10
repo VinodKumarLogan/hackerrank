@@ -1,0 +1,18 @@
+Challenge
+
+In the InsertionSort code below, there is an error. Can you fix it? Print the array only once, when it is fully sorted.
+
+Details 
+The Input format and the constraints are the same as the previous challenges and are presented below.
+
+Input Format 
+There will be two lines of input:
+
+s - the size of the array
+ar - the list of numbers that makes up the array
+Output Format 
+Output the numbers in order, space-separated.
+
+Constraints 
+1<=s<=1000 
+-1000<=x<= 1000 , x ∈ ar
