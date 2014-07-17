@@ -1,0 +1,15 @@
+In practice, how much faster is Quicksort (in-place) than Insertion Sort? Compare the running time of the two algorithms by counting how many swaps or shifts each one takes to sort an array, and output the difference. You can modify your previous sorting code to keep track of the swaps. The number of swaps required by Quicksort to sort any given input have to be calculated. Keep in mind that the last element of a block is chosen as the pivot, and that the array is sorted in-place as demonstrated in the explanation below.
+
+Any time a number is smaller than the partition, it should be "swapped", even if it doesn't actually move to a different location. Also ensure that you count the swap when the pivot is moved into place. The count for Insertion Sort should be the same as the previous challenge, where you just count the number of "shifts".
+
+Input Format 
+There will be two lines of input:
+
+n - the size of the array
+ar - n numbers that makes up the array
+Output Format 
+Output one integer D, where D = (insertion sort shifts) - (quicksort swaps)
+
+Constraints 
+1<=s<=1000 
+-1000<=x<= 1000 , x ∈ ar
